@@ -1,0 +1,28 @@
+//Nesting
+
+.contacto-formulario{
+    width: 60%;
+}
+
+.contacto-formulario{
+    div{
+        font-size: 20px;
+        margin: 60px;
+    }
+}
+
+.contato-formulario{
+    input{
+        font-size: 25px;
+    }
+}
+
+.contacto-formulario{
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+.contacto-formulario{
+    text-align: center;
+}

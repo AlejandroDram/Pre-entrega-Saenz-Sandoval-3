@@ -1,0 +1,155 @@
+//Nesting
+
+body{
+    background: $gris-fondo1;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    section{
+        filter: drop-shadow(1px 1px 3px);
+        animation-name: titulos-movimiento;
+        animation-iteration-count: infinite;
+        animation: 2s;
+    }
+        
+    @keyframes titulos-movimiento {
+        to{
+        transform:scale(1);
+        }
+        from{
+             transform:scale(0.10);
+        }
+            
+     }
+    
+    header{
+    display: flex;
+    min-height: 70px;
+    background-color: $amarillo-fondo2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    header{
+        img:hover{
+    filter: drop-shadow(5pc 5px 3px);
+    transform: scale(1.1);
+            }
+        }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo{
+        img{
+            height: 90px;
+            margin-right: 10px;
+        }
+    }
+    
+    nav{
+        a{
+            font-weight: 800;
+            padding-right: 10px;
+            color: black;
+            text-decoration: none;
+            }
+        }   
+    
+    nav{
+        a:hover{
+        background-color:rgb(189, 45, 182);
+        color: white;
+        }  
+    }
+    
+    @media (max-whidth:700px){
+        header{
+            flex-direction:column;
+        
+        nav{
+            padding: 10px;
+        }
+      }
+    }
+       
+    
+    
+    header{
+        nav{
+            main{
+                margin: 200px 0;
+                text-align: center;
+            }
+        }
+    }
+    
+    main{
+        h1{
+            font-size: 50px;
+            letter-spacing: 5px;
+            text-align: center;
+            margin: 30px 0 px;
+        }
+    }
+    
+    main{
+        h2{
+            text-align: center;
+            margin: 20px 0px;
+        }
+    }
+    
+    main{
+        .servicios{
+            margin: 40px 0;
+            display: flex;
+        }
+    }
+    
+    main{
+        .servicios{
+            .servicios__card{
+                h3{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+    main{
+        .servicios{
+            .servicios__card{
+                img{
+                    margin: 0 70px;
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+
+
+    main{
+        .servicios{
+            .servicios__card{
+                p{
+                    text-align: center;
+                    margin: 0px 50px;
+                }
+            }
+        }
+    }
+    
+    /*footer*/
+    
+    footer{
+        text-align:center;
+        margin: 0 50px;
+    }

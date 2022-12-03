@@ -1,0 +1,25 @@
+//Nesting
+
+main{
+    .sobre-nosotros{
+        display: flex;
+    }
+}
+
+main{
+    .sobre-nosotros{
+        img{
+            width: 35%;
+        }
+    }
+}
+
+main{
+    .sobre-nosotros{
+        p{
+            width: 40%;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

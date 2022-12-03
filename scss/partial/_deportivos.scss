@@ -1,0 +1,64 @@
+//Nesting
+
+.grid-container{
+    display: grid;
+    background-color: cornsilk;
+    grid-template-areas:
+    "header1 header2 "
+    "menu main "
+    "body1 body2"
+    "footer1 footer2  ";
+}
+
+.grid-container{
+    div{
+        background-color: crimson;
+        text-align: center;
+        color: #000000;
+        padding: 10px;
+        border: 1px solid black;
+        height: 200px;
+    }
+}
+
+.texto1{
+    grid-area: header1;
+}
+.texto2{
+    grid-area: header2;
+}
+.texto3{
+    grid-area: menu;
+}
+.texto4{
+    grid-area: main;
+}
+.texto5{
+    grid-area: body1;
+}
+.texto6{
+    grid-area: body2;
+}
+
+.texto1{
+    img{
+        height: 200px;
+        margin: auto;
+    }
+}
+
+.texto3{
+    img{
+        height: 205px;
+        width: 500px;
+        margin: auto;
+    }
+}
+
+.texto5{
+    img{
+        height: 200px;
+        width: 500px;
+        margin: auto;
+    }
+}
